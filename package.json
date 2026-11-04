@@ -1,0 +1,19 @@
+{
+  "name": "roxy-flac-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BitChord addon for legal FLAC sources (Internet Archive + local FLAC library)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "music-metadata": "^12.3.4"
+  }
+}

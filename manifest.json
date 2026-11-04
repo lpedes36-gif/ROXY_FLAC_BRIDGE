@@ -1,0 +1,21 @@
+{
+  "id": "id.roxy.flacbridge",
+  "name": "ROXY FLAC BRIDGE",
+  "version": "1.0.0",
+  "description": "Legal FLAC catalogue bridge: Internet Archive and private local FLAC library.",
+  "resources": ["search", "stream"],
+  "allowDownloads": 1,
+  "checkValidLossless": 0,
+  "settings": [
+    {
+      "key": "quality",
+      "type": "select",
+      "label": "Audio quality",
+      "default": "hires",
+      "options": [
+        { "value": "hires", "label": "Hi-Res FLAC (up to 24-bit; only when available)" },
+        { "value": "lossless", "label": "FLAC Lossless (16-bit/CD or better)" }
+      ]
+    }
+  ]
+}
