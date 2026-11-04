@@ -321,6 +321,7 @@ function streamInfo(resolved) {
   return {
     url: resolved.url,
     format: "flac",
+    mimeType: "audio/flac",
     quality: label,
     codec: "flac",
     container: "flac",
